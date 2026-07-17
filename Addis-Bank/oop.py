@@ -109,7 +109,7 @@ accounts = [
         "+251911223344",
         "Bole",
         1000
-        
+
     )
 
 ]
@@ -119,11 +119,6 @@ print("=== Running Transactions ===")
 
 
 for account in accounts:
-
     account.deposit(200)
-
-    # Same method call, different behavior
     account.withdraw(1100)
-
-    # Same method call, different output
     account.statement()
